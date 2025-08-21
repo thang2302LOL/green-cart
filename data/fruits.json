@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Táo đỏ hữu cơ",
+    "price": 60000,
+    "description": "Táo đỏ giòn ngọt, giàu vitamin C, trồng 100% hữu cơ.",
+    "category": "trái cây",
+    "image": "/images/apple.jpg",
+    "rating": { "rate": 4.8, "count": 120 }
+  },
+  {
+    "id": 2,
+    "title": "Cam vàng hữu cơ",
+    "price": 77000,
+    "description": "Cam vàng mọng nước, tốt cho hệ miễn dịch.",
+    "category": "trái cây",
+    "image": "/images/orange.jpg",
+    "rating": { "rate": 4.6, "count": 98 }
+  },
+  {
+    "id": 3,
+    "title": "Bơ sáp hữu cơ",
+    "price": 96000,
+    "description": "Bơ sáp dẻo, giàu chất béo tốt cho tim mạch.",
+    "category": "trái cây",
+    "image": "/images/avocado.jpg",
+    "rating": { "rate": 4.9, "count": 200 }
+  },
+  {
+    "id": 4,
+    "title": "Chuối tiêu hữu cơ",
+    "price": 43000,
+    "description": "Chuối tiêu thơm ngọt, cung cấp năng lượng nhanh.",
+    "category": "trái cây",
+    "image": "/images/banana.jpg",
+    "rating": { "rate": 4.5, "count": 150 }
+  },
+  {
+    "id": 5,
+    "title": "Dưa hấu hữu cơ",
+    "price": 156000,
+    "description": "Dưa hấu ngọt mát, giải khát ngày hè.",
+    "category": "trái cây",
+    "image": "/images/watermelon.jpg",
+    "rating": { "rate": 4.7, "count": 110 }
+  },
+  {
+    "id": 6,
+    "title": "Xoài cát hữu cơ",
+    "price": 120000,
+    "description": "Xoài cát thơm ngọt, vàng ươm, nhiều chất xơ.",
+    "category": "trái cây",
+    "image": "/images/mango.jpg",
+    "rating": { "rate": 4.9, "count": 180 }
+  },
+  {
+    "id": 7,
+    "title": "Cà rốt hữu cơ",
+    "price": 53000,
+    "description": "Cà rốt tươi giòn, giàu vitamin A.",
+    "category": "rau củ",
+    "image": "/images/carrot.jpg",
+    "rating": { "rate": 4.4, "count": 90 }
+  },
+  {
+    "id": 8,
+    "title": "Cà chua hữu cơ",
+    "price": 36000,
+    "description": "Cà chua mọng nước, dùng cho salad và nấu ăn.",
+    "category": "rau củ",
+    "image": "/images/tomato.jpg",
+    "rating": { "rate": 4.6, "count": 130 }
+  },
+  {
+    "id": 9,
+    "title": "Rau cải xanh hữu cơ",
+    "price": 29000,
+    "description": "Rau cải xanh non, tươi sạch, dùng cho canh, xào.",
+    "category": "rau củ",
+    "image": "/images/greens.jpg",
+    "rating": { "rate": 4.5, "count": 75 }
+  },
+  {
+    "id": 10,
+    "title": "Khoai lang tím hữu cơ",
+    "price": 84000,
+    "description": "Khoai lang tím bùi, giàu chất chống oxy hoá.",
+    "category": "rau củ",
+    "image": "/images/sweetpotato.jpg",
+    "rating": { "rate": 4.8, "count": 160 }
+  }
+]

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm - GreenCart</title>
+    <meta name="description" content="Khám phá bộ sưu tập sản phẩm hữu cơ tươi ngon và an toàn từ GreenCart">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h2>🌱 GreenCart</h2>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="/index.html">Trang chủ</a></li>
+                    <li><a href="products.html" class="active">Sản phẩm</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1>Sản phẩm hữu cơ</h1>
+                <p>Khám phá bộ sưu tập sản phẩm hữu cơ tươi ngon và an toàn</p>
+            </div>
+
+            <!-- Filters -->
+            <div class="filters">
+                <div class="filter-group">
+                    <input type="text" id="searchInput" placeholder="Tìm kiếm sản phẩm..." class="search-input">
+                    
+                    <select id="categoryFilter" class="filter-select">
+                        <option value="all">Tất cả danh mục</option>
+                        <option value="trái cây">Trái cây</option>
+                        <option value="rau củ">Rau củ</option>
+                    </select>
+                    
+                    <select id="sortFilter" class="filter-select">
+                        <option value="default">Sắp xếp</option>
+                        <option value="price-low">Giá thấp đến cao</option>
+                        <option value="price-high">Giá cao đến thấp</option>
+                        <option value="rating">Đánh giá cao nhất</option>
+                        <option value="name">Tên A-Z</option>
+                    </select>
+                </div>
+                
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid">Lưới</button>
+                    <button class="view-btn" data-view="list">Danh sách</button>
+                </div>
+            </div>
+
+            <!-- Results Count -->
+            <div class="results-info">
+                <p id="resultsCount">Đang tải sản phẩm...</p>
+            </div>
+
+            <!-- Loading -->
+            <div class="loading" id="loading">
+                <p>Đang tải sản phẩm...</p>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Products sẽ được load từ API -->
+            </div>
+
+            <!-- No Results -->
+            <div class="no-results" id="noResults" style="display: none;">
+                <h3>Không tìm thấy sản phẩm</h3>
+                <p>Thử thay đổi bộ lọc hoặc từ khóa tìm kiếm</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌱 GreenCart</h3>
+                    <p>Nơi cung cấp thực phẩm hữu cơ tươi ngon nhất</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liên kết</h4>
+                    <ul>
+                        <li><a href="/index.html">Trang chủ</a></li>
+                        <li><a href="products.html">Sản phẩm</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Liên hệ</h4>
+                    <p>📧 info@greencart.vn</p>
+                    <p>📞 1234</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GreenCart. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

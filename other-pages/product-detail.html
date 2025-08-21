@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm - GreenCart</title>
+    <meta name="description" content="Thông tin chi tiết sản phẩm hữu cơ từ GreenCart">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h2>🌱 GreenCart</h2>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="/index.html">Trang chủ</a></li>
+                    <li><a href="products.html">Sản phẩm</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb">
+                <a href="/index.html">Trang chủ</a> &gt; 
+                <a href="products.html">Sản phẩm</a> &gt; 
+                <span id="productBreadcrumb">Chi tiết sản phẩm</span>
+            </nav>
+
+            <!-- Loading -->
+            <div class="loading" id="loading">
+                <p>Đang tải thông tin sản phẩm...</p>
+            </div>
+
+            <!-- Product Detail -->
+            <div class="product-detail" id="productDetail" style="display: none;">
+                <div class="product-detail-content">
+                    <div class="product-image">
+                        <img id="productImage" src="" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h1 id="productTitle"></h1>
+                        <div class="product-rating">
+                            <div class="stars" id="productStars"></div>
+                            <span id="productRating"></span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" id="productPrice"></span>
+                        </div>
+                        <div class="product-description">
+                            <p id="productDescription"></p>
+                        </div>
+                        <div class="product-category">
+                            <strong>Danh mục:</strong> <span id="productCategory"></span>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <button class="qty-btn" id="decreaseQty">-</button>
+                                <input type="number" id="quantity" value="1" min="1">
+                                <button class="qty-btn" id="increaseQty">+</button>
+                            </div>
+                            <button class="btn btn-primary" id="addToCart">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Products -->
+            <section class="related-products" id="relatedProducts" style="display: none;">
+                <h2>Sản phẩm liên quan</h2>
+                <div class="products-grid" id="relatedProductsGrid">
+                    <!-- Related products sẽ được load từ API -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌱 GreenCart</h3>
+                    <p>Nơi cung cấp thực phẩm hữu cơ tươi ngon nhất</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liên kết</h4>
+                    <ul>
+                        <li><a href="/index.html">Trang chủ</a></li>
+                        <li><a href="products.html">Sản phẩm</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Liên hệ</h4>
+                    <p>📧 info@greencart.vn</p>
+                    <p>📞 1234</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GreenCart. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
